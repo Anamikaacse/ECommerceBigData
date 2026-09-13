@@ -1,5 +1,5 @@
 
-# E-Commerce Big Data Analysis
+# Big Data Analytics of E-Commerce Sales Transactions Using Hadoop MapReduce and Apache Pig
 
 This project analyzes an E-Commerce dataset using the Hadoop ecosystem. The workflow covers loading data into HDFS, running MapReduce jobs for core aggregations, and using Apache Pig for deeper, more flexible analysis on top of the same dataset.
 
@@ -23,6 +23,8 @@ ECommerceBigData
 4.jar -> the jar used to run MapReduce jobs
 5.pig  -> all the .pig scripts
 6.README.md
+7.Ecommerce_project_report.pdf
+
 ## Dataset
 The E-Commerce Order dataset (`ecommerce_dataset_+1m.csv`) is used for this project.
 ```cmd
@@ -58,6 +60,6 @@ To see the output:
 ```cmd
 hdfs dfs -cat /ecommerce/output/pig/<OutputName>/part-*
 ```
-## Authors
+## Author
 
 Anamika Roy
